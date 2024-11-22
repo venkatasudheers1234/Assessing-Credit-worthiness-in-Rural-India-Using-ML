@@ -8,8 +8,11 @@ The objective of the project is to develop a machine learning model that predict
 # Dataset
 The dataset, sourced from Kaggle, contains various attributes including:
 •   Personal Details: city, age, gender, social_class
+
 •   Financial Details: primary_business, secondary_business, annual_income, monthly_expenses, old_dependents, young_dependents
+
 •   House Details: home_ownership, type_of_house, occupants_count, house_area, sanitary_availability, water_availability
+
 •   Loan Details: loan_purpose, loan_tenure, loan_installments, loan_amount (these contain loan details of loans that have been previously given, and which have been repaid)
 
 # Solution Approach
@@ -39,9 +42,11 @@ Step 4:Model Building and Evaluation:
  
 # Code Execution Steps:
 •   Two python scripts files are present: EDA and Model creation.ipynb and ModelCreation_properCoding_documentation.py.
+
 •   EDA and Model creation.ipynb files has all EDA and Model creation scripts.
+
 •   ModelCreation_properCoding_documentation.py: I have followed object oriented programming approach for creating model.For this usecase,Random Forest gives best accuracy as 86.6%.
 
 # Technologies Used:
-Python,Pandas, NumPy, Scikit-learn, Matplotlib and Seaborn,Jupyter Notebook, Visual studio code, Machine learning models.
+Python, Machine learning models, Pandas, NumPy, Scikit-learn, Matplotlib and Seaborn, Jupyter Notebook and Visual studio code.
 
