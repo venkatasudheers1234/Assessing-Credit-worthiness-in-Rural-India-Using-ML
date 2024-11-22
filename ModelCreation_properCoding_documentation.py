@@ -8,25 +8,7 @@ import tkinter as tk
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 class Calculating_Credit_Worthiness(object):
-    '''
-        Use Case:Performing descriptive analysis of the features of the data and understanding  the maximum repayment capability of customers 
-        which can be used to grant them the desired amount
-        Machine learning Model is created by using Random Forest Regressor
-        Steps Followed for Building Random Forest Model:
-        Step 1 : Loading dataset from the prompt:
-                -The user is asked to select the input file
-                -The user is allowed to load only  CSV file format as per current scenario
-        Step 2: Handling missing values:
-                -Mode is used for handling categorical missing value and mean is used for numerical value.
-        Step 3 :Performing one-hot encoding:
-                -One-hot encoding is performed on categorical features:sex and type_of_house
-        Step 4:Converting loan_purpose features into 0 and 1:
-                -Top 10 most frequent categories in loan_purpose features are taken 
-                and one hot encoding is performed and the remaining categories are placed with 0..
-        Step 5: Model Creation and Evaluation:
-                -Model is created , accuracy and MSE,MAE and RMSE are calculated
-            
-        '''
+    
     def __init__(self):
         '''
         The initialization method contains multiple functions:
