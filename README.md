@@ -48,11 +48,11 @@ Step 4:Model Building and Evaluation:
  
  
 # Code Execution Steps:
-•   Two python scripts files are present: EDA and Model creation.ipynb and ModelCreation_properCoding_documentation.py.
+•   Two python scripts files are present: EDA and Model creation.ipynb and Main.py.
 
 •   EDA and Model creation.ipynb files has all EDA and Model creation scripts.
 
-•   ModelCreation_properCoding_documentation.py: I have followed object oriented programming approach for creating model.For this usecase,Random Forest gives best accuracy as 86.6%.
+•   Main.py: I have followed object oriented programming approach for creating model.For this usecase,Random Forest gives best accuracy as 86.6%.
 
 # Technologies Used:
 Python, Machine learning models, Pandas, NumPy, Scikit-learn, Matplotlib and Seaborn, Jupyter Notebook and Visual studio code.
